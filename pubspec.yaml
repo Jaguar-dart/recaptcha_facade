@@ -1,0 +1,23 @@
+name: recaptcha_facade
+description: Recaptcha library for Dart from authors of Jaguar.
+version: 1.0.0
+homepage: https://github.com/Jaguar-dart/recaptcha_facade
+author: Ravi Teja Gudapati <tejainece@gmail.com>
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dependencies:
+  js: ^0.6.1
+  dart_browser_loader: ^0.0.2
+
+dev_dependencies:
+  browser:
+  dart_to_js_script_rewriter:
+
+transformers:
+- dart_to_js_script_rewriter
+
+web:
+  compiler:
+    debug: dartdevc
