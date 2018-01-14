@@ -18,7 +18,7 @@ main() async {
 
 ## Simple example
 
-For a simple client-only example, check out this example.
+For a simple client-only example, [check out this example](https://github.com/Jaguar-dart/recaptcha_facade/tree/master/web).
 
 ## Complete example
 
